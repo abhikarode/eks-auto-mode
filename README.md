@@ -39,7 +39,7 @@ terraform apply
 4. After successful creation, configure kubectl to interact with your cluster:
 
 ```bash
-aws eks update-kubeconfig --name dev_q_eks_cluster --region us-west-2
+aws eks update-kubeconfig --name dev-q-eks-cluster --region us-west-2
 ```
 
 5. Verify the cluster is working:
